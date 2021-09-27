@@ -90,8 +90,13 @@ h3{
     background-size:90%;
 }
 .footer-section{
+    margin-top: 8%;
     text-align: center;
-    height: 400px;
+    height: 700px;
+    background-image:url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
 }
 h3{
     height: 10px;
