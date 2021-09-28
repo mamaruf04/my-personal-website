@@ -4,6 +4,7 @@ body{
 }
 .diffrent{
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 h1{
     font-size: 50px;
@@ -13,9 +14,14 @@ h2{
     font-size: 40px;
     height: 5px;
 }
-p{
+h3{
+    font-size: 18px;
+}
+#sizeing{
+    font-size: 14px;
+}
+.text-color{
     color: dimgray;
-    height: 100px;
 }
 .button-design{
     background-image: linear-gradient(180deg, crimson , red);
@@ -25,18 +31,18 @@ p{
     border-radius: 5px;
 }
 .button-design:hover{
-    color:rgb(255, 255, 255);
-    background-image: linear-gradient(180deg, cyan,red);
+    color:white;
+    background-image: linear-gradient(180deg,yellow ,green);
 }
 .font-design{
     color: rgb(255, 0, 51);
-    font-weight: 700px;
+    font-weight: 500px;
     
 }
 .half-width{
     width: 38%;
     float: left;
-    margin-left: 8%;
+    margin-left: 6%;
     margin-top: 2%;
 }
 .header-section{
@@ -44,9 +50,10 @@ p{
     background-repeat: no-repeat;
     background-position:left;
     background-size: contain;
+    height: 600px;
 }
 .half-width img{
-    width: 100%;  
+    width:100%;  
 }
 .closer{
     padding-block: 10%;
@@ -57,8 +64,54 @@ p{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size:100%;
-}
-section{
+    background-size:110%;
     height: 700px;
+}
+.triple-width{
+    width: 22%;
+    float:left;
+    padding: 2%;
+    margin-top: 4%;
+
+}
+.triple-width img{
+    width: 100%;
+    margin-left: 50%;
+}
+.alignment{
+    text-align: center;
+    margin-top: 5%;
+}
+.latest-work{
+    height: 500px;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:90%;
+}
+.footer-section{
+    margin-top: 8%;
+    text-align: center;
+    height: 700px;
+    background-image:url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+h3{
+    height: 10px;
+}
+.highlight{
+    border:2px solid;
+    border-radius: 10px;
+    background-color:purple;
+    display: block;
+    color: white;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+#mail{
+    font-size: 24px;
 }
